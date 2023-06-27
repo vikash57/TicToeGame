@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CB44B929ED1BC200EB8098 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CB44B829ED1BC200EB8098 /* HomeViewController.swift */; };
+		18EE29FA29E953B400BC055B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE29F929E953B400BC055B /* AppDelegate.swift */; };
+		18EE29FC29E953B400BC055B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE29FB29E953B400BC055B /* SceneDelegate.swift */; };
+		18EE29FE29E953B400BC055B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE29FD29E953B400BC055B /* ViewController.swift */; };
+		18EE2A0129E953B400BC055B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE29FF29E953B400BC055B /* Main.storyboard */; };
+		18EE2A0429E953B400BC055B /* TikTokGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EE2A0229E953B400BC055B /* TikTokGame.xcdatamodeld */; };
+		18EE2A0629E953B600BC055B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE2A0529E953B600BC055B /* Assets.xcassets */; };
+		18EE2A0929E953B600BC055B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE2A0729E953B600BC055B /* LaunchScreen.storyboard */; };
+		18EE2A1429E953B600BC055B /* TikTokGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE2A1329E953B600BC055B /* TikTokGameTests.swift */; };
+		18EE2A1E29E953B600BC055B /* TikTokGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE2A1D29E953B600BC055B /* TikTokGameUITests.swift */; };
+		18EE2A2029E953B600BC055B /* TikTokGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE2A1F29E953B600BC055B /* TikTokGameUITestsLaunchTests.swift */; };
+		18EE2A2E29E953E300BC055B /* TicTokViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE2A2D29E953E300BC055B /* TicTokViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EE2A1029E953B600BC055B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EE29EE29E953B400BC055B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EE29F529E953B400BC055B;
+			remoteInfo = TikTokGame;
+		};
+		18EE2A1A29E953B600BC055B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EE29EE29E953B400BC055B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EE29F529E953B400BC055B;
+			remoteInfo = TikTokGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CB44B829ED1BC200EB8098 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18EE29F629E953B400BC055B /* TikTokGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE29F929E953B400BC055B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EE29FB29E953B400BC055B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18EE29FD29E953B400BC055B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EE2A0029E953B400BC055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EE2A0329E953B400BC055B /* TikTokGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TikTokGame.xcdatamodel; sourceTree = "<group>"; };
+		18EE2A0529E953B600BC055B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EE2A0829E953B600BC055B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EE2A0A29E953B600BC055B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EE2A0F29E953B600BC055B /* TikTokGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE2A1329E953B600BC055B /* TikTokGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokGameTests.swift; sourceTree = "<group>"; };
+		18EE2A1929E953B600BC055B /* TikTokGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE2A1D29E953B600BC055B /* TikTokGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokGameUITests.swift; sourceTree = "<group>"; };
+		18EE2A1F29E953B600BC055B /* TikTokGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18EE2A2D29E953E300BC055B /* TicTokViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTokViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EE29F329E953B400BC055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A0C29E953B600BC055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A1629E953B600BC055B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EE29ED29E953B400BC055B = {
+			isa = PBXGroup;
+			children = (
+				18EE29F829E953B400BC055B /* TikTokGame */,
+				18EE2A1229E953B600BC055B /* TikTokGameTests */,
+				18EE2A1C29E953B600BC055B /* TikTokGameUITests */,
+				18EE29F729E953B400BC055B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EE29F729E953B400BC055B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EE29F629E953B400BC055B /* TikTokGame.app */,
+				18EE2A0F29E953B600BC055B /* TikTokGameTests.xctest */,
+				18EE2A1929E953B600BC055B /* TikTokGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EE29F829E953B400BC055B /* TikTokGame */ = {
+			isa = PBXGroup;
+			children = (
+				18EE2A2C29E953C200BC055B /* Controller */,
+				18EE29F929E953B400BC055B /* AppDelegate.swift */,
+				18EE29FB29E953B400BC055B /* SceneDelegate.swift */,
+				18EE29FD29E953B400BC055B /* ViewController.swift */,
+				18EE29FF29E953B400BC055B /* Main.storyboard */,
+				18EE2A0529E953B600BC055B /* Assets.xcassets */,
+				18EE2A0729E953B600BC055B /* LaunchScreen.storyboard */,
+				18EE2A0A29E953B600BC055B /* Info.plist */,
+				18EE2A0229E953B400BC055B /* TikTokGame.xcdatamodeld */,
+			);
+			path = TikTokGame;
+			sourceTree = "<group>";
+		};
+		18EE2A1229E953B600BC055B /* TikTokGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EE2A1329E953B600BC055B /* TikTokGameTests.swift */,
+			);
+			path = TikTokGameTests;
+			sourceTree = "<group>";
+		};
+		18EE2A1C29E953B600BC055B /* TikTokGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EE2A1D29E953B600BC055B /* TikTokGameUITests.swift */,
+				18EE2A1F29E953B600BC055B /* TikTokGameUITestsLaunchTests.swift */,
+			);
+			path = TikTokGameUITests;
+			sourceTree = "<group>";
+		};
+		18EE2A2C29E953C200BC055B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EE2A2D29E953E300BC055B /* TicTokViewController.swift */,
+				18CB44B829ED1BC200EB8098 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EE29F529E953B400BC055B /* TikTokGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE2A2329E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGame" */;
+			buildPhases = (
+				18EE29F229E953B400BC055B /* Sources */,
+				18EE29F329E953B400BC055B /* Frameworks */,
+				18EE29F429E953B400BC055B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTokGame;
+			productName = TikTokGame;
+			productReference = 18EE29F629E953B400BC055B /* TikTokGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EE2A0E29E953B600BC055B /* TikTokGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE2A2629E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGameTests" */;
+			buildPhases = (
+				18EE2A0B29E953B600BC055B /* Sources */,
+				18EE2A0C29E953B600BC055B /* Frameworks */,
+				18EE2A0D29E953B600BC055B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EE2A1129E953B600BC055B /* PBXTargetDependency */,
+			);
+			name = TikTokGameTests;
+			productName = TikTokGameTests;
+			productReference = 18EE2A0F29E953B600BC055B /* TikTokGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EE2A1829E953B600BC055B /* TikTokGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE2A2929E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGameUITests" */;
+			buildPhases = (
+				18EE2A1529E953B600BC055B /* Sources */,
+				18EE2A1629E953B600BC055B /* Frameworks */,
+				18EE2A1729E953B600BC055B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EE2A1B29E953B600BC055B /* PBXTargetDependency */,
+			);
+			name = TikTokGameUITests;
+			productName = TikTokGameUITests;
+			productReference = 18EE2A1929E953B600BC055B /* TikTokGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EE29EE29E953B400BC055B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18EE29F529E953B400BC055B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18EE2A0E29E953B600BC055B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18EE29F529E953B400BC055B;
+					};
+					18EE2A1829E953B600BC055B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18EE29F529E953B400BC055B;
+					};
+				};
+			};
+			buildConfigurationList = 18EE29F129E953B400BC055B /* Build configuration list for PBXProject "TikTokGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EE29ED29E953B400BC055B;
+			productRefGroup = 18EE29F729E953B400BC055B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EE29F529E953B400BC055B /* TikTokGame */,
+				18EE2A0E29E953B600BC055B /* TikTokGameTests */,
+				18EE2A1829E953B600BC055B /* TikTokGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EE29F429E953B400BC055B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE2A0929E953B600BC055B /* LaunchScreen.storyboard in Resources */,
+				18EE2A0629E953B600BC055B /* Assets.xcassets in Resources */,
+				18EE2A0129E953B400BC055B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A0D29E953B600BC055B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A1729E953B600BC055B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EE29F229E953B400BC055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE29FE29E953B400BC055B /* ViewController.swift in Sources */,
+				18EE29FA29E953B400BC055B /* AppDelegate.swift in Sources */,
+				18EE2A2E29E953E300BC055B /* TicTokViewController.swift in Sources */,
+				18EE29FC29E953B400BC055B /* SceneDelegate.swift in Sources */,
+				18EE2A0429E953B400BC055B /* TikTokGame.xcdatamodeld in Sources */,
+				18CB44B929ED1BC200EB8098 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A0B29E953B600BC055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE2A1429E953B600BC055B /* TikTokGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE2A1529E953B600BC055B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE2A2029E953B600BC055B /* TikTokGameUITestsLaunchTests.swift in Sources */,
+				18EE2A1E29E953B600BC055B /* TikTokGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EE2A1129E953B600BC055B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EE29F529E953B400BC055B /* TikTokGame */;
+			targetProxy = 18EE2A1029E953B600BC055B /* PBXContainerItemProxy */;
+		};
+		18EE2A1B29E953B600BC055B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EE29F529E953B400BC055B /* TikTokGame */;
+			targetProxy = 18EE2A1A29E953B600BC055B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EE29FF29E953B400BC055B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE2A0029E953B400BC055B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EE2A0729E953B600BC055B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE2A0829E953B600BC055B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EE2A2129E953B600BC055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EE2A2229E953B600BC055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EE2A2429E953B600BC055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EE2A2529E953B600BC055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18EE2A2729E953B600BC055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTokGame";
+			};
+			name = Debug;
+		};
+		18EE2A2829E953B600BC055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTokGame";
+			};
+			name = Release;
+		};
+		18EE2A2A29E953B600BC055B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTokGame;
+			};
+			name = Debug;
+		};
+		18EE2A2B29E953B600BC055B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobulous.TikTokGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTokGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EE29F129E953B400BC055B /* Build configuration list for PBXProject "TikTokGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE2A2129E953B600BC055B /* Debug */,
+				18EE2A2229E953B600BC055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE2A2329E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE2A2429E953B600BC055B /* Debug */,
+				18EE2A2529E953B600BC055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE2A2629E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE2A2729E953B600BC055B /* Debug */,
+				18EE2A2829E953B600BC055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE2A2929E953B600BC055B /* Build configuration list for PBXNativeTarget "TikTokGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE2A2A29E953B600BC055B /* Debug */,
+				18EE2A2B29E953B600BC055B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EE2A0229E953B400BC055B /* TikTokGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EE2A0329E953B400BC055B /* TikTokGame.xcdatamodel */,
+			);
+			currentVersion = 18EE2A0329E953B400BC055B /* TikTokGame.xcdatamodel */;
+			path = TikTokGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18EE29EE29E953B400BC055B /* Project object */;
+}
